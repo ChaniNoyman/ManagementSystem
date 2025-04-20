@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X8jH/K3v6V03lQnH8etyWSA3+W6xL4jXZSKXOEf7tu4=",
+  "Hash": "68DXcboowdv6SLgB1ivwXPLvi9LaSewU/XKnUdh4Gq8=",
   "Source": "ManagementSystem_03",
   "BasePath": "_content/ManagementSystem_03",
   "Mode": "Default",
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\deleteButtons.js"
+    },
+    {
+      "Identity": "C:\\Users\\Chanif\\Desktop\\C#\\Management system\\ManagementSystem_03\\ManagementSystem_03\\wwwroot\\js\\editTable.js",
+      "SourceId": "ManagementSystem_03",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chanif\\Desktop\\C#\\Management system\\ManagementSystem_03\\ManagementSystem_03\\wwwroot\\",
+      "BasePath": "_content/ManagementSystem_03",
+      "RelativePath": "js/editTable#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tdufk62e9u",
+      "Integrity": "kVNSozhZzesbxtLz2rhvpFhB71t/lP8s+JFF7MKPyfQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\editTable.js"
     },
     {
       "Identity": "C:\\Users\\Chanif\\Desktop\\C#\\Management system\\ManagementSystem_03\\ManagementSystem_03\\wwwroot\\js\\site.js",
@@ -1584,6 +1605,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-11AZG5XmhedIRQprtQJY1AK/SwUL3jYleo2BMx9OkKk="
+        }
+      ]
+    },
+    {
+      "Route": "js/editTable.js",
+      "AssetFile": "C:\\Users\\Chanif\\Desktop\\C#\\Management system\\ManagementSystem_03\\ManagementSystem_03\\wwwroot\\js\\editTable.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kVNSozhZzesbxtLz2rhvpFhB71t/lP8s+JFF7MKPyfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 09:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kVNSozhZzesbxtLz2rhvpFhB71t/lP8s+JFF7MKPyfQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/editTable.tdufk62e9u.js",
+      "AssetFile": "C:\\Users\\Chanif\\Desktop\\C#\\Management system\\ManagementSystem_03\\ManagementSystem_03\\wwwroot\\js\\editTable.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kVNSozhZzesbxtLz2rhvpFhB71t/lP8s+JFF7MKPyfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 09:04:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tdufk62e9u"
+        },
+        {
+          "Name": "label",
+          "Value": "js/editTable.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kVNSozhZzesbxtLz2rhvpFhB71t/lP8s+JFF7MKPyfQ="
         }
       ]
     },

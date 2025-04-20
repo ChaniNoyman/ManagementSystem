@@ -176,3 +176,4 @@ C:\Users\Chanif\Desktop\C#\Management system\ManagementSystem_03\ManagementSyste
 C:\Users\Chanif\Desktop\C#\Management system\ManagementSystem_03\ManagementSystem_03\obj\Debug\net8.0\ManagementSystem_03.pdb
 C:\Users\Chanif\Desktop\C#\Management system\ManagementSystem_03\ManagementSystem_03\obj\Debug\net8.0\ManagementSystem_03.genruntimeconfig.cache
 C:\Users\Chanif\Desktop\C#\Management system\ManagementSystem_03\ManagementSystem_03\obj\Debug\net8.0\ref\ManagementSystem_03.dll
+C:\Users\Chanif\Desktop\C#\Management system\ManagementSystem_03\ManagementSystem_03\obj\Debug\net8.0\ManagementSystem_03.sourcelink.json

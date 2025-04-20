@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\deleteButtons.js"
     },
     {
+      "Id": "C:\\Users\\Chanif\\Desktop\\C#\\Management system\\ManagementSystem_03\\ManagementSystem_03\\wwwroot\\js\\editTable.js",
+      "PackagePath": "staticwebassets\\js\\editTable.js"
+    },
+    {
       "Id": "C:\\Users\\Chanif\\Desktop\\C#\\Management system\\ManagementSystem_03\\ManagementSystem_03\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

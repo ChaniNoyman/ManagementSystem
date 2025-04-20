@@ -43,6 +43,13 @@ app.MapControllerRoute(
 );
 
 app.MapControllerRoute(
+    name: "editTable",
+    pattern: "Tables/Edit/{tableName}",
+    defaults: new { controller = "Tables", action = "Edit" },
+    constraints: new { httpMethod = new HttpMethodRouteConstraint("POST") }
+);
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Tables}/{action=Index}/{id?}"
 );
