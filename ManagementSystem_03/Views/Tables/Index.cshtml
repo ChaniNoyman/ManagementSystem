@@ -1,0 +1,51 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model TablesViewModel
+
+<h2>Tables</h2>
+
+<ul>
+	@foreach (var tableName in Model.TableNames)
+	{
+		<li><a asp-action="Index" asp-route-tableName="@tableName.Name">@tableName.Name</a></li>
+	}
+</ul>
+
+@if (Model.TableData != null)
+{
+	<h2>Data from @ViewBag.SelectedTableName</h2>
+		if (Model.TableData.Data.Count > 0) 
+		{
+			<table>
+				<thead>
+					<tr>
+						@foreach (var column in Model.TableData.Data.FirstOrDefault())
+						{
+							<th style="padding: 10px;">@column.Key</th>
+						}
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var row in Model.TableData.Data)
+					{
+						<tr>
+							@foreach (var column in row)
+							{
+								<td style="padding: 10px;">@column.Value</td>
+							}
+							<td>
+								<button>ערוך</button>
+								<button class="delete-button" data-id="@row["theIndex"]" data-table-name="@ViewBag.SelectedTableName">מחק</button>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		}
+	<script src="~/js/deleteButtons.js"></script>
+
+}

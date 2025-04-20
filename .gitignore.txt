@@ -1,0 +1,51 @@
+# Compiled Object Code and Libraries
+*.obj
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userprefs
+*.cache
+*.pid
+
+# Visual Studio temporary files, build results, and caches
+[Bb]in
+[Oo]bj
+_ReSharper*
+*.csproj.user
+*.vcxproj.user
+*.vcxproj.filters
+*.vspscc
+*.vssscc
+*.xaml.g.cs
+*.g.i.cs
+*.GeneratedInternalTypeHelper.cs
+*.resharper.*
+*$tf
+*.orig
+*.local
+*.log
+
+# NuGet Packages
+packages/
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.opencover.xml
+
+# Build Artifacts
+Release/
+Debug/
+publish/
+
+# ASP.NET Core
+/wwwroot/lib/
+/node_modules/
+*.sqlite
+*.db
+
+# User-specific files
+*.vs/
